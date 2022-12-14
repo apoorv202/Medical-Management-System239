@@ -1,0 +1,80 @@
+
+.form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+background-color: #fafafa;
+   
+}
+.bor_shadow{
+    margin-left: 10px;
+    margin-right:10px ;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 450px;
+    width: 450px;
+
+}
+
+body{
+    background-color: #23b63e;
+}
+.bor_shadow h3{
+    font-size: larger;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.bor_shadow h1{
+    font-size: larger;
+    font-weight: 600;
+    margin-top: -5x;
+}
+.border{
+    border-bottom: 1px solid black;
+}
+.input_type_text{
+    margin-left: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    border:  1px solid gray;
+    background-color: #fafafa;
+}
+.input_type_number{
+    margin-left: 10px;
+    height: 30px;
+    width: 420px;
+    border-radius: 7px;
+    border:  1px solid gray;
+    background-color: #fafafa;
+}
+.input_type_password{
+    height: 30px;
+    width: 420px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border:  1px solid gray;
+    background-color: #fafafa;
+}
+.male{
+    margin-left: 20px;
+    border-radius: 3px;
+border:  1px solid rgba(128, 128, 128, 0.395);
+background-color: #fafafa;
+
+
+}
+.text{
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.button{
+    background-color:#23b63e;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:  1px solid rgba(128, 128, 128, 0.395);
+    border-radius: 7px;
+    margin-left: 130px;
+    margin-top: 20px;
+}

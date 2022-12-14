@@ -1,0 +1,99 @@
+
+
+
+
+.navbarmain {
+    /* border-bottom: 1px solid black; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #461A42;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
+}
+
+
+
+.navbarmain ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 50px;
+}
+
+
+.navbarmain ul li{
+    margin-right: 50px;
+
+}
+
+.navbarmain ul li button{
+  
+    padding-left: 40px;
+padding-right:40px ;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #5D2057;
+border-radius: 10px;
+border: 1px solid black;
+font-size: larger;
+}
+
+.navbarmain ul li button:hover{
+   
+    background-color: rgb(99, 142, 145);
+}
+.login{
+  
+  margin-top: 150px;
+    height: 450px;
+   
+    
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.login h2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.loginbbtn button{
+    margin-left: 5px;
+    padding-left: 70px;
+    padding-right:70px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(14, 14, 14);
+    background-color: rgb(255, 255, 255)
+}
+form  label{
+    margin-left: 20px;
+}
+form input{
+    margin-left: 20px;
+}
+.loginform{
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    border:  1px solid black;
+}
+form button{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 40px;
+    width: 350px;
+    font-size: larger;
+    background-color: #04AA6D!important;;
+}
+h3 span{
+    font-weight: 400;
+    margin-left: 60px;
+   
+}

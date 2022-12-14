@@ -1,0 +1,246 @@
+
+.feed-quiz-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* background-color: aqua; */
+   
+    height: 300px;
+   
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+.quiz-container{
+   
+    width: 220px;
+    /* background-color: black; */
+    box-shadow: 0 4px 8px 0 rgb(225, 221, 221);
+    border-radius: 7px;
+    margin-top: 100px;
+}
+.quiz-container img{
+height:200px ;
+width:220px ;
+border-radius: 7px;
+
+}
+.quiz-container h4{
+    font-weight: 400;
+    font-size: larger;
+}
+.quiz-container h6{
+    font-weight: 300;
+
+}
+.quiz-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.search{ 
+    margin-right: 200px;
+    
+}
+
+.search input{
+ 
+    margin-top: 5px;
+    /* margin-right: 650px; */
+    height: 35px;
+    width: 300px;
+    border-radius: 7px;
+
+}
+#act{
+    margin-right: 800px;
+    margin-left: 5px;
+    text-decoration: none;
+   font-size: larger;
+   font-size: larger;
+   font-weight: 500;
+}
+.home{
+  margin-left: 5px;
+    text-decoration: none;
+   font-size: larger;
+   font-size: larger;
+   font-weight: 500;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.feed-quiz-container2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* background-color: aqua; */
+   
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 150px;
+    
+}
+
+.heading_text{
+    margin-left: 150px;
+}
+
+
+
+
+
+.navbarmain {
+    /* border-bottom: 1px solid black; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    background-color: #ffffff;
+  }
+  
+  .navbarmain ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 50px;
+  
+  }
+  
+  .navbarmain ul li {
+    margin-right: 10px;
+    text-decoration: none;
+    
+  }
+  
+  .navbarmain ul li h3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border-radius: 10px;
+  
+    font-size: larger;
+    font-weight: 300;
+    margin-top: -1px;
+    text-decoration: none;
+  }
+  .navbarmain ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* .navbarmain ul li button:hover{
+     
+      background-color:#23b63e;
+  } */
+  
+  .search {
+    height: 50px;
+    width: 700px;
+    border-radius: 7px;
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgb(225, 221, 221); */
+    border: 1px solid gray;
+    margin-right: 100px;
+  }
+
+
+  /*footer*/
+#footer {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  min-height: 50vh;
+  margin-top: 300px;
+  padding: 50px 100px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+#footer ul li {
+  color: white;
+  list-style: none;
+  margin: 30px 40px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+#footer ul li a:hover {
+  color: #ff4321;
+}
+
+.social-links {
+  margin-left: 8%;
+  margin-top: 100px;
+}
+
+.social-links a {
+  font-size: 30px;
+  color: #606163;
+  margin-right: 20px;
+}
+
+.social-links a:hover {
+  color: #ff4321;
+}
+/* Benefits */
+.benefit-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 80px;
+}
+
+.benefit {
+  border: 1px solid #ccc;
+  padding: 16px 16px 32px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 150px;
+}
+
+.benefit .icon {
+  color: #ff4321;
+  font-size: 64px;
+}
+
+.benefit h4 {
+  margin-bottom: 5px;
+}
+
+.benefit .text {
+  font-size: 24px;
+  color: #777;
+}
+
+#footer ul li {
+  margin-left: -100px;
+}
+.sociallinks {
+  border-radius: 5px;
+  height: 30px;
+}
+
+.main {
+  color: blue;
+  display: none;
+}
